@@ -145,6 +145,7 @@
     <ClCompile Include="ZAbsoluteLayout.cpp" />
     <ClCompile Include="ZAbstractButton.cpp" />
     <ClCompile Include="ZAlignment.cpp" />
+    <ClCompile Include="ZArc.cpp" />
     <ClCompile Include="ZButtonGruop.cpp" />
     <ClCompile Include="ZCircle.cpp" />
     <ClCompile Include="ZColor.cpp" />
@@ -158,6 +159,7 @@
     <ClCompile Include="Zline.cpp" />
     <ClCompile Include="ZMargin.cpp" />
     <ClCompile Include="ZObject.cpp" />
+    <ClCompile Include="ZObservable.cpp" />
     <ClCompile Include="ZPadding.cpp" />
     <ClCompile Include="ZPoint.cpp" />
     <ClCompile Include="ZPolygon.cpp" />
@@ -176,6 +178,7 @@
     <ClInclude Include="ZAbsoluteLayout.h" />
     <ClInclude Include="ZAbstractButton.h" />
     <ClInclude Include="ZAlignment.h" />
+    <ClInclude Include="ZArc.h" />
     <ClInclude Include="ZButtonGruop.h" />
     <ClInclude Include="ZCircle.h" />
     <ClInclude Include="ZColor.h" />
@@ -190,6 +193,7 @@
     <ClInclude Include="Zline.h" />
     <ClInclude Include="ZMargin.h" />
     <ClInclude Include="ZObject.h" />
+    <ClInclude Include="ZObservable.h" />
     <ClInclude Include="ZPadding.h" />
     <ClInclude Include="ZPoint.h" />
     <ClInclude Include="ZPolygon.h" />

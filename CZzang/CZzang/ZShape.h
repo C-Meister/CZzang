@@ -8,9 +8,9 @@ namespace czzang {
 	class ZShape : public ZGraphics
 	{
 	private:
-		ZColor	color_;
-		ZColor	background_color_;
-		ZColor	border_color_;
+		ZColor	*color_;
+		ZColor	*background_color_;
+		ZColor	*border_color_;
 		int		border_width_;
 		bool	filled_;
 

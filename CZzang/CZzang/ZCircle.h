@@ -1,9 +1,12 @@
 #pragma once
+#include "ZShape.h"
 
 namespace czzang {
 
-	class ZCircle
+	class ZCircle : ZShape
 	{
+	private:
+		int radius_;
 	public:
 		ZCircle();
 		~ZCircle();

@@ -16,9 +16,15 @@ namespace czzang {
 
 	class ZAlignment
 	{
+	private:
+		ZHorizontalAlignment horizontal_ = ZHorizontalAlignment::LEFT;
+		ZVerticalAlignment vertical_ = ZVerticalAlignment::TOP;
+
 	public:
 		ZAlignment();
 		~ZAlignment();
+
+
 	};
 }
 

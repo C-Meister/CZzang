@@ -102,6 +102,12 @@
     <ClCompile Include="ZTextView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ZObservable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZArc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CZzang.h">
@@ -192,6 +198,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ZTextView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZObservable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZArc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

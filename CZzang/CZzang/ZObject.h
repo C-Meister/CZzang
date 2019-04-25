@@ -19,7 +19,6 @@ namespace czzang {
 		void setVisible(const bool& visible);
 		bool getVisible(void);
 
-
 		void paint(void);
 	};
 }
