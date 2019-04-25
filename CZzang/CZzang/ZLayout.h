@@ -1,8 +1,13 @@
 #pragma once
-class ZLayout
-{
-public:
-	ZLayout();
-	~ZLayout();
-};
 
+namespace czzang {
+
+	class ZLayout
+	{
+	public:
+		ZLayout();
+		~ZLayout();
+	};
+
+
+}

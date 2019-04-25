@@ -26,7 +26,7 @@ namespace czzang {
 	}
 	void ZColor::setColor(std::string RGBA)
 	{
-#	
+		
 	}
 
 	

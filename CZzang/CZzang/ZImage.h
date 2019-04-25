@@ -1,8 +1,13 @@
 #pragma once
-class ZImage
-{
-public:
-	ZImage();
-	~ZImage();
-};
 
+namespace czzang {
+
+	class ZImage
+	{
+	public:
+		ZImage();
+		~ZImage();
+	};
+
+
+}

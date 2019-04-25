@@ -1,8 +1,13 @@
 #pragma once
-class ZWidget
-{
-public:
-	ZWidget();
-	~ZWidget();
-};
 
+namespace czzang {
+
+	class ZWidget
+	{
+	public:
+		ZWidget();
+		~ZWidget();
+	};
+
+
+}

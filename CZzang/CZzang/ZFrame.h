@@ -1,8 +1,12 @@
 #pragma once
-class ZFrame
-{
-public:
-	ZFrame();
-	~ZFrame();
-};
 
+namespace czzang {
+
+	class ZFrame
+	{
+	public:
+		ZFrame();
+		~ZFrame();
+	};
+
+}

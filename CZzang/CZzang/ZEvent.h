@@ -1,8 +1,13 @@
 #pragma once
-class ZEvent
-{
-public:
-	ZEvent();
-	~ZEvent();
-};
 
+namespace czzang {
+
+	class ZEvent
+	{
+	public:
+		ZEvent();
+		~ZEvent();
+	};
+
+
+}

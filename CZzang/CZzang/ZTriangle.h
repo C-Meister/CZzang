@@ -1,8 +1,13 @@
 #pragma once
-class ZTriangle
-{
-public:
-	ZTriangle();
-	~ZTriangle();
-};
 
+namespace czzang {
+
+	class ZTriangle
+	{
+	public:
+		ZTriangle();
+		~ZTriangle();
+	};
+
+
+}

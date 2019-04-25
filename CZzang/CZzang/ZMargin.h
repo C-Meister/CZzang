@@ -1,8 +1,13 @@
 #pragma once
-class ZMargin
-{
-public:
-	ZMargin();
-	~ZMargin();
-};
 
+namespace czzang {
+
+	class ZMargin
+	{
+	public:
+		ZMargin();
+		~ZMargin();
+	};
+
+
+}

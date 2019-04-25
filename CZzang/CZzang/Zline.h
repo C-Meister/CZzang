@@ -1,8 +1,13 @@
 #pragma once
-class Zline
-{
-public:
-	Zline();
-	~Zline();
-};
 
+namespace czzang {
+
+	class Zline
+	{
+	public:
+		Zline();
+		~Zline();
+	};
+
+
+}

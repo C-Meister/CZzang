@@ -1,8 +1,13 @@
 #pragma once
-class ZAbstractButton
-{
-public:
-	ZAbstractButton();
-	~ZAbstractButton();
-};
 
+namespace czzang {
+
+	class ZAbstractButton
+	{
+	public:
+		ZAbstractButton();
+		~ZAbstractButton();
+	};
+
+
+}

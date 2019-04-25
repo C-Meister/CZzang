@@ -1,8 +1,12 @@
 #pragma once
-class ZGeometry
-{
-public:
-	ZGeometry();
-	~ZGeometry();
-};
 
+namespace czzang {
+
+	class ZGeometry
+	{
+	public:
+		ZGeometry();
+		~ZGeometry();
+	};
+
+}

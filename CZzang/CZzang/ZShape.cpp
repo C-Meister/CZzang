@@ -43,29 +43,32 @@ namespace czzang {
 
 	void ZShape::setBorderColor(const ZColor& border_color)
 	{
+		this->border_color_ = border_color;
 	}
 
 	const ZColor& ZShape::getBorderColor()
 	{
-		// TODO: 여기에 반환 구문을 삽입합니다.
+		return this->border_color_;
 	}
 
 	void ZShape::setBorderWidth(const int& border_width)
 	{
+		this->border_width_ = border_width;
 	}
 
 	const int& ZShape::getBorderWidth()
 	{
-		// TODO: 여기에 반환 구문을 삽입합니다.
+		return this->border_width_;
 	}
 
 	void ZShape::setFilled(const bool& filled)
 	{
+		this->filled_ = filled;
 	}
 
 	const bool& ZShape::getFilled()
 	{
-		// TODO: 여기에 반환 구문을 삽입합니다.
+		return this->filled_;
 	}
 
 }

@@ -1,8 +1,13 @@
 #pragma once
-class ZTextView
-{
-public:
-	ZTextView();
-	~ZTextView();
-};
 
+namespace czzang {
+
+	class ZTextView
+	{
+	public:
+		ZTextView();
+		~ZTextView();
+	};
+
+
+}

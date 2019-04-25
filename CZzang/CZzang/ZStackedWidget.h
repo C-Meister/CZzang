@@ -1,8 +1,13 @@
 #pragma once
-class ZStackedWidget
-{
-public:
-	ZStackedWidget();
-	~ZStackedWidget();
-};
 
+namespace czzang {
+
+	class ZStackedWidget
+	{
+	public:
+		ZStackedWidget();
+		~ZStackedWidget();
+	};
+
+
+}

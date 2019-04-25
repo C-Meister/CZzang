@@ -1,8 +1,13 @@
 #pragma once
-class ZAbsoluteLayout
-{
-public:
-	ZAbsoluteLayout();
-	~ZAbsoluteLayout();
-};
 
+namespace czzang {
+
+	class ZAbsoluteLayout
+	{
+	public:
+		ZAbsoluteLayout();
+		~ZAbsoluteLayout();
+	};
+
+
+}

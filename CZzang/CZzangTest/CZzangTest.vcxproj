@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -19,10 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{BD8A5E7D-B482-4786-BE8E-C068703D0512}</ProjectGuid>
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{E071ECE2-F77C-4715-9C9C-3F55E98FB4D8}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CZzang</RootNamespace>
+    <RootNamespace>CZzangTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -40,7 +40,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -70,12 +70,12 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>lib\;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -83,29 +83,31 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-    </ClCompile>
-    <Link>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Console</SubSystem>
-    </Link>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\CZzang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_net.lib;SDL2_ttf.lib;SDL2main.lib;SDL2test.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -114,14 +116,15 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
+      <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -130,78 +133,24 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
+      <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CZzang.cpp" />
-    <ClCompile Include="ZAbsoluteLayout.cpp" />
-    <ClCompile Include="ZAbstractButton.cpp" />
-    <ClCompile Include="ZAlignment.cpp" />
-    <ClCompile Include="ZButtonGruop.cpp" />
-    <ClCompile Include="ZCircle.cpp" />
-    <ClCompile Include="ZColor.cpp" />
-    <ClCompile Include="ZEllipse.cpp" />
-    <ClCompile Include="ZEvent.cpp" />
-    <ClCompile Include="ZFont.cpp" />
-    <ClCompile Include="ZFrame.cpp" />
-    <ClCompile Include="ZGeometry.cpp" />
-    <ClCompile Include="ZImage.cpp" />
-    <ClCompile Include="ZLayout.cpp" />
-    <ClCompile Include="Zline.cpp" />
-    <ClCompile Include="ZMargin.cpp" />
-    <ClCompile Include="ZObject.cpp" />
-    <ClCompile Include="ZPadding.cpp" />
-    <ClCompile Include="ZPoint.cpp" />
-    <ClCompile Include="ZPolygon.cpp" />
-    <ClCompile Include="ZRadioButton.cpp" />
-    <ClCompile Include="ZRange.cpp" />
-    <ClCompile Include="ZRect.cpp" />
-    <ClCompile Include="ZShape.cpp" />
-    <ClCompile Include="ZSize.cpp" />
-    <ClCompile Include="ZStackedWidget.cpp" />
-    <ClCompile Include="ZTextView.cpp" />
-    <ClCompile Include="ZTriangle.cpp" />
-    <ClCompile Include="ZWidget.cpp" />
+    <ProjectReference Include="..\CZzang\CZzang.vcxproj">
+      <Project>{bd8a5e7d-b482-4786-be8e-c068703d0512}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CZzang.h" />
-    <ClInclude Include="ZAbsoluteLayout.h" />
-    <ClInclude Include="ZAbstractButton.h" />
-    <ClInclude Include="ZAlignment.h" />
-    <ClInclude Include="ZButtonGruop.h" />
-    <ClInclude Include="ZCircle.h" />
-    <ClInclude Include="ZColor.h" />
-    <ClInclude Include="ZEllipse.h" />
-    <ClInclude Include="ZEvent.h" />
-    <ClInclude Include="ZFont.h" />
-    <ClInclude Include="ZFrame.h" />
-    <ClInclude Include="ZGeometry.h" />
-    <ClInclude Include="ZGraphics.h" />
-    <ClInclude Include="ZImage.h" />
-    <ClInclude Include="ZLayout.h" />
-    <ClInclude Include="Zline.h" />
-    <ClInclude Include="ZMargin.h" />
-    <ClInclude Include="ZObject.h" />
-    <ClInclude Include="ZPadding.h" />
-    <ClInclude Include="ZPoint.h" />
-    <ClInclude Include="ZPolygon.h" />
-    <ClInclude Include="ZRadioButton.h" />
-    <ClInclude Include="ZRange.h" />
-    <ClInclude Include="ZRect.h" />
-    <ClInclude Include="ZShape.h" />
-    <ClInclude Include="ZSize.h" />
-    <ClInclude Include="ZStackedWidget.h" />
-    <ClInclude Include="ZTextView.h" />
-    <ClInclude Include="ZTriangle.h" />
-    <ClInclude Include="ZWidget.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

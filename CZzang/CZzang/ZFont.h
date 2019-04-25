@@ -1,8 +1,13 @@
 #pragma once
-class ZFont
-{
-public:
-	ZFont();
-	~ZFont();
-};
 
+namespace czzang {
+
+	class ZFont
+	{
+	public:
+		ZFont();
+		~ZFont();
+	};
+
+
+}

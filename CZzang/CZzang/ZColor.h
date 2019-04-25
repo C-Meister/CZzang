@@ -5,10 +5,10 @@ namespace czzang {
 	class ZColor
 	{
 	private:
-		int R_;
-		int G_;
-		int B_;
-		int A_;
+		int R_ = 0;
+		int G_ = 0;
+		int B_ = 0;
+		int A_ = 0;
 	public:
 		ZColor();
 		ZColor(int R, int G, int B, int A);

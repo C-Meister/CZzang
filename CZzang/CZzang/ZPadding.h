@@ -1,8 +1,13 @@
 #pragma once
-class ZPadding
-{
-public:
-	ZPadding();
-	~ZPadding();
-};
 
+namespace czzang {
+
+	class ZPadding
+	{
+	public:
+		ZPadding();
+		~ZPadding();
+	};
+
+
+}

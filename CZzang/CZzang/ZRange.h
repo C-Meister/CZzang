@@ -1,8 +1,13 @@
 #pragma once
-class ZRange
-{
-public:
-	ZRange();
-	~ZRange();
-};
 
+namespace czzang {
+
+	class ZRange
+	{
+	public:
+		ZRange();
+		~ZRange();
+	};
+
+
+}

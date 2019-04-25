@@ -1,8 +1,12 @@
 #pragma once
-class ZRect
-{
-public:
-	ZRect();
-	~ZRect();
-};
 
+namespace czzang {
+
+	class ZRect
+	{
+	public:
+		ZRect();
+		~ZRect();
+	};
+
+}

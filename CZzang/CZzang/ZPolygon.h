@@ -1,8 +1,13 @@
 #pragma once
-class ZPolygon
-{
-public:
-	ZPolygon();
-	~ZPolygon();
-};
 
+namespace czzang {
+
+	class ZPolygon
+	{
+	public:
+		ZPolygon();
+		~ZPolygon();
+	};
+
+
+}

@@ -1,8 +1,13 @@
 #pragma once
-class ZRadioButton
-{
-public:
-	ZRadioButton();
-	~ZRadioButton();
-};
 
+namespace czzang {
+
+	class ZRadioButton
+	{
+	public:
+		ZRadioButton();
+		~ZRadioButton();
+	};
+
+
+}

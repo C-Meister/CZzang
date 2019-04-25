@@ -1,8 +1,13 @@
 #pragma once
-class ZSize
-{
-public:
-	ZSize();
-	~ZSize();
-};
 
+namespace czzang {
+
+	class ZSize
+	{
+	public:
+		ZSize();
+		~ZSize();
+	};
+
+
+}

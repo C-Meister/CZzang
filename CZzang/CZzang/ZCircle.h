@@ -1,8 +1,13 @@
 #pragma once
-class ZCircle
-{
-public:
-	ZCircle();
-	~ZCircle();
-};
 
+namespace czzang {
+
+	class ZCircle
+	{
+	public:
+		ZCircle();
+		~ZCircle();
+	};
+
+
+}

@@ -1,8 +1,13 @@
 #pragma once
-class ZEllipse
-{
-public:
-	ZEllipse();
-	~ZEllipse();
-};
 
+namespace czzang {
+
+	class ZEllipse
+	{
+	public:
+		ZEllipse();
+		~ZEllipse();
+	};
+
+
+}

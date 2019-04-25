@@ -16,9 +16,7 @@ namespace czzang {
 		std::vector<ZPoint> position_;
 
 	public:
-		ZGraphics(const std::string& id) : ZObject(id) {
-
-		}
+		ZGraphics(const std::string& id) : ZObject(id) {}
 
 		virtual void rotate() = 0;
 	};
