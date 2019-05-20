@@ -4,9 +4,13 @@ namespace czzang {
 
 	class ZEvent
 	{
+	private:
+		String event_name_;
+
 	public:
-		ZEvent();
-		~ZEvent();
+		const String& getEventName() const;
+		void setEventName(const String& event_name);
+
 	};
 
 

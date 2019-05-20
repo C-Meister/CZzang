@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\NewFilter1">
+      <UniqueIdentifier>{1e93b26d-ccef-4375-9a4f-d9a7e3e7dc20}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CZzang.cpp">
@@ -60,9 +63,6 @@
     <ClCompile Include="ZGeometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ZButtonGruop.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ZAlignment.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -102,10 +102,34 @@
     <ClCompile Include="ZTextView.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ZObservable.cpp">
+    <ClCompile Include="ZArc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ZArc.cpp">
+    <ClCompile Include="ZButtonGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZTextEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZAbstractScrollArea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZGraphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZAbstractSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZToolTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZCursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZUnit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -158,9 +182,6 @@
     <ClInclude Include="ZGeometry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ZButtonGruop.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ZAlignment.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -200,11 +221,42 @@
     <ClInclude Include="ZTextView.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ZObservable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ZArc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ZButtonGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZTextEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZAbstractScrollArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFlow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZAbstractSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZToolTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZUnit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

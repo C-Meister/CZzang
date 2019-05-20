@@ -4,9 +4,17 @@ namespace czzang {
 
 	class ZMargin
 	{
+	private:
+
+		int right_;
+		int up_;
+
 	public:
-		ZMargin();
-		~ZMargin();
+		const int& getRight() const;
+		void setRight(const int& right);
+		const int& getUp() const;
+		void setUp(const int& up);
+		
 	};
 
 

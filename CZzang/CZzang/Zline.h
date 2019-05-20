@@ -3,7 +3,7 @@
 
 namespace czzang {
 
-	class Zline : ZShape
+	class Zline : public ZShape
 	{
 	private:
 		int width_;

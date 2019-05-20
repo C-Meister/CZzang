@@ -4,9 +4,12 @@ namespace czzang {
 
 	class ZStackedWidget
 	{
+	private:
+		int current_index_;
 	public:
-		ZStackedWidget();
-		~ZStackedWidget();
+		const int& getCurrentIndex() const;
+		void setCurrentIndex(const int& current_index);
+		
 	};
 
 

@@ -3,13 +3,13 @@
 
 namespace czzang {
 
-	class ZRect : ZShape
+	class ZRect : public ZShape
 	{
 	private:
 		int border_radius_;
 	public:
-		ZRect();
-		~ZRect();
+		const int& getBorderRadius() const;
+		void setBorderRadius(const int& border_radius);
 	};
 
 }

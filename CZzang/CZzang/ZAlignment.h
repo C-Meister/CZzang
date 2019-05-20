@@ -24,7 +24,11 @@ namespace czzang {
 		ZAlignment();
 		~ZAlignment();
 
+		void setHorizontial(ZHorizontalAlignment horizontal_);
+		ZHorizontalAlignment getHorizontial();
 
+		void setVertical(ZVerticalAlignment vertical_);
+		ZVerticalAlignment getVertical();
 	};
 }
 

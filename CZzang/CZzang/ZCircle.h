@@ -3,13 +3,14 @@
 
 namespace czzang {
 
-	class ZCircle : ZShape
+	class ZCircle : public ZShape
 	{
 	private:
 		int radius_;
 	public:
-		ZCircle();
-		~ZCircle();
+
+		void setRadius(const int& radius);
+		const int& getRadius() const;
 	};
 
 

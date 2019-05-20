@@ -143,23 +143,27 @@
   <ItemGroup>
     <ClCompile Include="CZzang.cpp" />
     <ClCompile Include="ZAbsoluteLayout.cpp" />
+    <ClCompile Include="ZAbstractSlider.cpp" />
     <ClCompile Include="ZAbstractButton.cpp" />
+    <ClCompile Include="ZAbstractScrollArea.cpp" />
     <ClCompile Include="ZAlignment.cpp" />
     <ClCompile Include="ZArc.cpp" />
-    <ClCompile Include="ZButtonGruop.cpp" />
+    <ClCompile Include="ZButtonGroup.cpp" />
     <ClCompile Include="ZCircle.cpp" />
     <ClCompile Include="ZColor.cpp" />
+    <ClCompile Include="ZCursor.cpp" />
     <ClCompile Include="ZEllipse.cpp" />
     <ClCompile Include="ZEvent.cpp" />
+    <ClCompile Include="ZException.cpp" />
     <ClCompile Include="ZFont.cpp" />
     <ClCompile Include="ZFrame.cpp" />
     <ClCompile Include="ZGeometry.cpp" />
+    <ClCompile Include="ZGraphics.cpp" />
     <ClCompile Include="ZImage.cpp" />
     <ClCompile Include="ZLayout.cpp" />
     <ClCompile Include="Zline.cpp" />
     <ClCompile Include="ZMargin.cpp" />
     <ClCompile Include="ZObject.cpp" />
-    <ClCompile Include="ZObservable.cpp" />
     <ClCompile Include="ZPadding.cpp" />
     <ClCompile Include="ZPoint.cpp" />
     <ClCompile Include="ZPolygon.cpp" />
@@ -169,21 +173,29 @@
     <ClCompile Include="ZShape.cpp" />
     <ClCompile Include="ZSize.cpp" />
     <ClCompile Include="ZStackedWidget.cpp" />
+    <ClCompile Include="ZTextEdit.cpp" />
     <ClCompile Include="ZTextView.cpp" />
+    <ClCompile Include="ZToolTip.cpp" />
     <ClCompile Include="ZTriangle.cpp" />
+    <ClCompile Include="ZUnit.cpp" />
     <ClCompile Include="ZWidget.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CZzang.h" />
     <ClInclude Include="ZAbsoluteLayout.h" />
+    <ClInclude Include="ZAbstractSlider.h" />
     <ClInclude Include="ZAbstractButton.h" />
+    <ClInclude Include="ZAbstractScrollArea.h" />
     <ClInclude Include="ZAlignment.h" />
     <ClInclude Include="ZArc.h" />
-    <ClInclude Include="ZButtonGruop.h" />
+    <ClInclude Include="ZButtonGroup.h" />
     <ClInclude Include="ZCircle.h" />
     <ClInclude Include="ZColor.h" />
+    <ClInclude Include="ZCursor.h" />
     <ClInclude Include="ZEllipse.h" />
     <ClInclude Include="ZEvent.h" />
+    <ClInclude Include="ZException.h" />
+    <ClInclude Include="ZFlow.h" />
     <ClInclude Include="ZFont.h" />
     <ClInclude Include="ZFrame.h" />
     <ClInclude Include="ZGeometry.h" />
@@ -193,9 +205,9 @@
     <ClInclude Include="Zline.h" />
     <ClInclude Include="ZMargin.h" />
     <ClInclude Include="ZObject.h" />
-    <ClInclude Include="ZObservable.h" />
     <ClInclude Include="ZPadding.h" />
     <ClInclude Include="ZPoint.h" />
+    <ClInclude Include="ZPolicy.h" />
     <ClInclude Include="ZPolygon.h" />
     <ClInclude Include="ZRadioButton.h" />
     <ClInclude Include="ZRange.h" />
@@ -203,9 +215,16 @@
     <ClInclude Include="ZShape.h" />
     <ClInclude Include="ZSize.h" />
     <ClInclude Include="ZStackedWidget.h" />
+    <ClInclude Include="ZTextEdit.h" />
     <ClInclude Include="ZTextView.h" />
+    <ClInclude Include="ZToolTip.h" />
     <ClInclude Include="ZTriangle.h" />
+    <ClInclude Include="ZUnit.h" />
     <ClInclude Include="ZWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

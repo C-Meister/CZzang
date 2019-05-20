@@ -3,17 +3,17 @@
 #include "ZShape.h"
 
 namespace czzang {
-	class ZArc : ZShape
+	class ZArc : public  ZShape
 	{
 	private:
-		ZPoint *center_point_;
-		bool clockwise;
+		ZPoint* center_point_;
+		bool clockwise_;
 	public:
-		ZArc();
-		~ZArc();
-
-		void setCenterPoint(const ZPoint &center);
-		void setClockwise(const bool &clockwise)
+		ZPoint* getCenterPoint() const;
+		void setCenterPoint(ZPoint* center_point);
+		const bool& isClockwise() const;
+		void setClockwise(const bool& clockwise);
+		
 	};
 }
 

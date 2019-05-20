@@ -2,14 +2,11 @@
 
 
 namespace czzang {
-
-	ZPolygon::ZPolygon()
-	{
+	const int& ZPolygon::getVertexCount() const {
+		return this->vertex_count_;
 	}
-
-
-	ZPolygon::~ZPolygon()
-	{
+	void ZPolygon::setVertexCount(const int& vertex_count) {
+		this->vertex_count_ = vertex_count;
 	}
 
 }

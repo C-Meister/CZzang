@@ -1,15 +1,10 @@
 #include "ZStackedWidget.h"
 
 namespace czzang {
-
-
-	ZStackedWidget::ZStackedWidget()
-	{
+	const int& ZStackedWidget::getCurrentIndex() const {
+		return this->current_index_;
 	}
-
-
-	ZStackedWidget::~ZStackedWidget()
-	{
+	void ZStackedWidget::setCurrentIndex(const int& current_index) {
+		this->current_index_ = current_index;
 	}
-
 }

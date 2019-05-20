@@ -4,34 +4,16 @@
 
 namespace czzang {
 
-	ZObject::ZObject(const std::string& id) : id_(id), visible_(true)
-	{
+	const std::string& ZObject::getId() const {
+		return this->id_;
 	}
-
-	ZObject::~ZObject()
-	{
-
+	void ZObject::setId(const std::string& id) {
+		this->id_ = id;
 	}
-
-	const std::string& ZObject::getId() const
-	{
-		return id_;
-	}
-
-	void ZObject::setVisible(const bool& visible)
-	{
-		this->visible_ = visible;
-	}
-
-	bool ZObject::getVisible(void)
-	{
+	const bool& ZObject::isVisible() const {
 		return this->visible_;
 	}
-
-
-	//±×¸°´Ù
-	void ZObject::paint(void)
-	{
-
+	void ZObject::setVisible(const bool& visible) {
+		this->visible_ = visible;
 	}
 }

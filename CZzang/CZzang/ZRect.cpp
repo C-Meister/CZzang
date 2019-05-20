@@ -1,14 +1,10 @@
 #include "ZRect.h"
 
 namespace czzang {
-
-	ZRect::ZRect()
-	{
+	const int& ZRect::getBorderRadius() const {
+		return this->border_radius_;
 	}
-
-
-	ZRect::~ZRect()
-	{
+	void ZRect::setBorderRadius(const int& border_radius) {
+		this->border_radius_ = border_radius;
 	}
-
 }

@@ -8,8 +8,9 @@ namespace czzang {
 	private:
 		int vertex_count_;
 	public:
-		ZPolygon();
-		~ZPolygon();
+		const int& getVertexCount() const;
+		void setVertexCount(const int& vertex_count);
+		
 	};
 
 

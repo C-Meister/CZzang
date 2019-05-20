@@ -1,13 +1,17 @@
 #include "ZEllipse.h"
 
 namespace czzang {
-	ZEllipse::ZEllipse()
-	{
+	
+	const int& ZEllipse::getWidth() const {
+		return this->width_;
 	}
-
-
-	ZEllipse::~ZEllipse()
-	{
+	void ZEllipse::setWidth(const int& width) {
+		this->width_ = width;
 	}
-
+	const int& ZEllipse::getHeight() const {
+		return this->height_;
+	}
+	void ZEllipse::setHeight(const int& height) {
+		this->height_ = height;
+	}
 }

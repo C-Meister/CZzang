@@ -12,30 +12,35 @@ namespace czzang {
 		ZColor	*background_color_;
 		ZColor	*border_color_;
 		int		border_width_;
-		bool	filled_;
+		bool	is_filled_;
 
 	public:
-		ZShape(const std::string& id);
-		ZShape(const std::string& id, const ZColor& color_);
-		ZShape(const std::string& id, const ZColor& color_,const ZColor& background_color_, const ZColor& border_color_);
+		ZShape(
+			const std::string& id,
+			const ZColor& color,
+			const ZColor& background_color,
+			const ZColor& border_color,
+			const int& border_width,
+			const bool& is_filled
+		);
 
 
 		~ZShape();
-		void rotate () override;
+		void rotate (const int& angle) override;
 
 		void setColor(const ZColor& color);
-		const ZColor& getColor();
+		ZColor* getColor() const;
 
 		void setBackgroundColor(const ZColor& background_color);
-		const ZColor& getBackgroundColor();
+		ZColor* getBackgroundColor() const;
 	
 		void setBorderColor(const ZColor& border_color);
-		const ZColor& getBorderColor();
+		ZColor* getBorderColor() const;
 
 		void setBorderWidth(const int& border_width);
 		const int& getBorderWidth();
 
-		void setFilled(const bool& filled);
+		void setFilled(const bool& is_filled);
 		const bool& getFilled();
 	};
 

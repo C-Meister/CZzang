@@ -2,14 +2,16 @@
 
 
 namespace czzang {
-
-	ZMargin::ZMargin()
-	{
+	const int& ZMargin::getRight() const {
+		return this->right_;
 	}
-
-
-	ZMargin::~ZMargin()
-	{
+	void ZMargin::setRight(const int& right) {
+		this->right_ = right;
 	}
-
+	const int& ZMargin::getUp() const {
+		return this->up_;
+	}
+	void ZMargin::setUp(const int& up) {
+		this->up_ = up;
+	}
 }

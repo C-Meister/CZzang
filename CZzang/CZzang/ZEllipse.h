@@ -3,14 +3,17 @@
 
 namespace czzang {
 
-	class ZEllipse : ZShape
+	class ZEllipse : public ZShape
 	{
 	private:
 		int width_;
 		int height_;
 	public:
-		ZEllipse();
-		~ZEllipse();
+		const int& getWidth() const;
+		void setWidth(const int& width);
+		const int& getHeight() const;
+		void setHeight(const int& height);
+		
 	};
 
 

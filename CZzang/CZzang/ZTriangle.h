@@ -1,12 +1,14 @@
 #pragma once
+#include "ZShape.h"
 
 namespace czzang {
 
-	class ZTriangle
+	class ZTriangle : public ZShape 
 	{
-	public:
-		ZTriangle();
-		~ZTriangle();
+		
+		public:
+			ZTriangle();
+			~ZTriangle();
 	};
 
 

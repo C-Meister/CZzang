@@ -7,18 +7,13 @@
 namespace czzang {
  	interface ZGraphics : public ZObject
 	{
-	private:
-
-		double angle_;
-
 	protected:
-
+		double angle_;
 		std::vector<ZPoint> position_;
 
 	public:
-		ZGraphics(const std::string& id) : ZObject(id) {}
-
-		virtual void rotate() = 0;
+		ZGraphics(const std::string id);
+		virtual void rotate(const int& angle);
 	};
 }
 

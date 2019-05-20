@@ -1,14 +1,12 @@
 #include "ZCircle.h"
 
 namespace czzang {
-
-	ZCircle::ZCircle()
+	void ZCircle::setRadius(const int& radius)
 	{
+		this->radius_ = radius;
 	}
-
-
-	ZCircle::~ZCircle()
+	const int& ZCircle::getRadius() const
 	{
+		return this->radius_;
 	}
-
 }

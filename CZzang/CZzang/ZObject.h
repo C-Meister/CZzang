@@ -1,6 +1,5 @@
 #pragma once
-#include <string>
-
+#include "CZzang.h"
 
 namespace czzang {
 	
@@ -8,17 +7,13 @@ namespace czzang {
 	class ZObject
 	{
 	private:
-		const std::string	id_;
-		bool				visible_;
+		std::string id_;
+		bool visible_;
 	public:
-		ZObject(const std::string& id);
-		~ZObject();
-		
 		const std::string& getId() const;
-		
+		void setId(const std::string& id);
+		const bool& isVisible() const;
 		void setVisible(const bool& visible);
-		bool getVisible(void);
-
-		void paint(void);
+		
 	};
 }

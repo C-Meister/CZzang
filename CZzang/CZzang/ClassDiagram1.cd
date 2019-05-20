@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="czzang::ZAbsoluteLayout">
+    <Position X="30.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZAbsoluteLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZAbstractSlider">
+    <Position X="1" Y="17.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>EAABAAIAAAiAMCAEAAICYAAAQhDABCAAEAABCAIAAAA=</HashCode>
+      <FileName>ZAbstractSlider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZAbstractButton">
+    <Position X="5.5" Y="17.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>CAACIAAAAkABAEAAAIAACCCAAAACAAgAAABAgAAAAAA=</HashCode>
+      <FileName>ZAbstractButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZAbstractScrollArea">
+    <Position X="19.5" Y="22" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>ACAQAAIAAAAAAAgAAgFAAAAAAAQAAAAAAAAgAAEEEAA=</HashCode>
+      <FileName>ZAbstractScrollArea.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZAlignment" Collapsed="true">
+    <Position X="37.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAAAAACAAAgAACAAAAIAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZAlignment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZArc">
+    <Position X="0.5" Y="6" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAJABAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZArc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZButtonGroup" Collapsed="true">
+    <Position X="39" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAQAA=</HashCode>
+      <FileName>ZButtonGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZCircle">
+    <Position X="10.75" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAAA=</HashCode>
+      <FileName>ZCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZColor" Collapsed="true">
+    <Position X="40.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="czzang::ZColor::Color" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ZColor.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAGAEQAAAAAAgAAgBCAFAAABAAAAAAAAAAAADAIAAA=</HashCode>
+      <FileName>ZColor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZEllipse">
+    <Position X="20.75" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAABAAAAAAAAAAgQAAAAAAAAAAAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ZEllipse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZEvent" Collapsed="true">
+    <Position X="37.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>ZEvent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZException" Collapsed="true">
+    <Position X="39" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAACAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ZException.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZFont" Collapsed="true">
+    <Position X="40.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEBAAAAAgASAAAAACBAFAIACAECDIAIAAAAABKAAw=</HashCode>
+      <FileName>ZFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZFrame">
+    <Position X="16" Y="17.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAAACAAACARAAAAAAAAAAAEAAAAAAqAAAAQARAA=</HashCode>
+      <FileName>ZFrame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZGeometry">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>ZGeometry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZImage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAAAAAAAAAAAEAAAgAgAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>ZImage.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="czzang::ZLayout">
+    <Position X="29.25" Y="12.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAgAAAACAAAACIAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ZLayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::Zline">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAIAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZMargin" Collapsed="true">
+    <Position X="37.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAAIAAAAAAAAAAAAAAAAAAAAgAAAAgAAgAA=</HashCode>
+      <FileName>ZMargin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZObject">
+    <Position X="17.25" Y="9.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAgAAAAAAAAAADAAAAAAAAAAAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>ZObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZPadding" Collapsed="true">
+    <Position X="39" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAAIAAABAAAAAIAACAAAAAAAgAAAAgAAgAA=</HashCode>
+      <FileName>ZPadding.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZPoint">
+    <Position X="5.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAGAAYAAAAAAAAAAAAAAGAAAAA=</HashCode>
+      <FileName>ZPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZPolygon">
+    <Position X="6.75" Y="6" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEQAAA=</HashCode>
+      <FileName>ZPolygon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZRadioButton">
+    <Position X="6.75" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZRadioButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZRange" Collapsed="true">
+    <Position X="40.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAEAAABAAAAAAAAIAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZRange.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZRect">
+    <Position X="16.5" Y="6" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ZRect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZShape">
+    <Position X="7" Y="0.5" Width="9.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAABAAACAAAAAAAAAQABAgAAEQAELAJBAAgIAIAAA=</HashCode>
+      <FileName>ZShape.h</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="czzang::ZSize">
+    <Position X="25" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAFAAAAAAAAAggQAgAAAAAAAAAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>ZSize.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZStackedWidget" Collapsed="true">
+    <Position X="42.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>ZStackedWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZTextEdit">
+    <Position X="10" Y="22" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAABgABAAAAAiACAIAAAAAAAEAAAqAAAAAA=</HashCode>
+      <FileName>ZTextEdit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZTextView">
+    <Position X="15.25" Y="22" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAmCABAABgAABAAAQCECgAAAAAAAACAAAAAABAAA=</HashCode>
+      <FileName>ZTextView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZTriangle">
+    <Position X="14.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZTriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZWidget">
+    <Position X="11.5" Y="12.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAGAAAAAAAAAAABAAgAMBAgAgAAIAAAACAABEAA=</HashCode>
+      <FileName>ZWidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZToolTip" Collapsed="true">
+    <Position X="37.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZToolTip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZCursor" Collapsed="true">
+    <Position X="42.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>ZCursor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="czzang::ZUnit">
+    <Position X="33.75" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAUQRAA=</HashCode>
+      <FileName>ZUnit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="czzang::color_t" Collapsed="true">
+    <Position X="37.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZColor.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ZCursorPosition" Collapsed="true">
+    <Position X="39" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZTextEdit.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Interface Name="czzang::ZGraphics">
+    <Position X="26" Y="12.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAQAABAAAA=</HashCode>
+      <FileName>ZGraphics.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="czzang::ZHorizontalAlignment" Collapsed="true">
+    <Position X="39" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>ZAlignment.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="czzang::ZVerticalAlignment" Collapsed="true">
+    <Position X="37.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ZAlignment.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="czzang::ZFlow" Collapsed="true">
+    <Position X="37.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZFlow.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="czzang::ZScrollBarPolicy" Collapsed="true">
+    <Position X="40.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZPolicy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="czzang::ZSizeAdjustPolicy" Collapsed="true">
+    <Position X="42.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZPolicy.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

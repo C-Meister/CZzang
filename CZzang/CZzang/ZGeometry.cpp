@@ -2,7 +2,7 @@
 
 namespace czzang {
 
-	ZGeometry::ZGeometry()
+	ZGeometry::ZGeometry(): ZPoint(), ZSize()
 	{
 	}
 

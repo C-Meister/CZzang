@@ -1,12 +1,11 @@
 #pragma once
+#include "ZLayout.h"
+
 
 namespace czzang {
 
-	class ZAbsoluteLayout
+	class ZAbsoluteLayout : public ZLayout
 	{
-	public:
-		ZAbsoluteLayout();
-		~ZAbsoluteLayout();
 	};
 
 
